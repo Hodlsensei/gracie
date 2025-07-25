@@ -1,0 +1,42 @@
+/* style.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+/* Gracie Image */
+.gracie-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border: 6px solid #0d6efd; /* Bootstrap blue border */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Headers */
+h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Skills Section */
+h5 {
+  background: #fff;
+  padding: 10px 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+}
+
+h5:hover {
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}
