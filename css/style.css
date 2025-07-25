@@ -1,0 +1,38 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fdfefe;
+  color: #333;
+}
+h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+img {
+  border: 5px solid #0d6efd; /* nice blue */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.gracie-img {
+  border-radius: 15px;           /* Rounded rectangle */
+  object-fit: cover;             /* Keep it neat */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  transition: transform 0.3s ease;
+}
+.gracie-img:hover {
+  transform: scale(1.05);
+}
+
+
+
+
